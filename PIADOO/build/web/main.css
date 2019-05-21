@@ -1,0 +1,100 @@
+
+body {
+	background-image:url("img/fondoindex.jpg");
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+.menu{
+	width: 100%;
+	background-color:#29abe2;
+	list-style:none;	
+	margin: 0;
+	padding: 0;
+  	position: -webkit-sticky; 
+  	top: 0;
+	text-align:left;
+}
+	
+.menu li {
+	display:inline-block;
+}
+
+.menu li a {
+	padding: 15px;
+	display:inline-block;
+	color: white;
+	text-decoration:none;
+}
+
+.menu li a:hover{
+	background-color: #003256;
+}
+
+.login-box{
+	width: 320px;
+	height: 420px;
+	background: rgba(240, 240, 240, 0.5) ;
+	color: 003a5d;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+
+}
+
+.login-box .icono{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	margin-top: -230px; 
+	margin-let: -230px;
+}
+
+
+.login-box h1 {
+	margin: 0px;
+	padding-top: 90px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.login-box label {
+	font-weight: bold;
+	display: block;
+}
+
+.login-box input {
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.login-box [type="text"], .login-box [type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+}
+
+.login-box [type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	font-size: 18px;
+	border-radius: 20px;
+	background-color: #29abe2;
+}
+.login-box [type="submit"]:hover {
+	background-color: #29abe2;
+	opacity: 0.5;
+}
